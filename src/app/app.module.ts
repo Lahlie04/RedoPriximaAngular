@@ -13,6 +13,10 @@ import { ServiceInfoComponent } from './components/service-info/service-info.com
 import { TeamInfoComponent } from './components/team-info/team-info.component';
 import { PortfolioComponent } from './components/portfolio/portfolio.component';
 
+import { ReviewsComponent } from './components/reviews/reviews.component';
+import { BlogComponent } from './components/blog/blog.component';
+import { FooterComponent } from './components/footer/footer.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,7 +28,11 @@ import { PortfolioComponent } from './components/portfolio/portfolio.component';
    
     ServiceInfoComponent,
         TeamInfoComponent,
-        PortfolioComponent
+        PortfolioComponent,
+  
+        ReviewsComponent,
+           BlogComponent,
+           FooterComponent
   ],
   imports: [
     BrowserModule,
